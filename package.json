@@ -1,0 +1,11 @@
+{
+  "name": "trending-algorithm",
+  "version": "1.0.0",
+  "description": "get trending value of a video from views comments an votes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hanz",
+  "license": "ISC"
+}
