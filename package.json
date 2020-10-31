@@ -1,5 +1,5 @@
 {
-  "name": "trending-algorithm",
+  "name": "TrendingAlgorithm",
   "version": "1.0.0",
   "description": "get trending value of a video from views comments an votes",
   "main": "index.js",
