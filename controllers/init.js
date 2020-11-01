@@ -14,6 +14,12 @@ module.exports = async function(videos) {
     // Calculate trending values of each video and update in Database
     trendingVideoData.forEach(async ele => {
       ele.trendingValue = (((0.6 * ele.normalizedViews) + (0.2 * ele.normalizedComments) + (0.2 * ele.normalizedVotes)) * 100);
+      delete ele.normalizedViews
+      delete ele.normalizedComments
+      delete ele.normalizedVotes
+      delete ele.avgCommentPerTenMin
+      delete ele.avgViewsPerTenMin
+      delete ele.avgVotePerTenMin
     });
     return trendingVideoData
   } catch (error) {
