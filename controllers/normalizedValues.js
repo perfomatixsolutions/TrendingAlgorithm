@@ -1,7 +1,5 @@
 'use strict';
 
-const logger = require('../utils/logger');
-
 /**
  * @typedef {{minview: Number, minComment: number, minVote: Number, maxView: Number, maxComment: Number, maxVote: Number}} valuesPerTenMin
  * @typedef {{id: Number, avgViewsPerTenMin: Number, avgCommentPerTenMin: Number, avgVotePerTenMin: Number}} trendingVideoDataObject
