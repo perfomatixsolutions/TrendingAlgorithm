@@ -1,6 +1,6 @@
 {
   "name": "@hanzhaneefa/trending-algorithm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get trending value of a video from views comments an votes",
   "main": "index.js",
   "scripts": {
