@@ -2,13 +2,13 @@
 
 /**
  * @typedef {{minview: Number, minComment: number, minVote: Number, maxView: Number, maxComment: Number, maxVote: Number}} valuesPerTenMin
- * @typedef {{id: Number, avgViewsPerTenMin: Number, avgCommentPerTenMin: Number, avgVotePerTenMin: Number}} trendingVideoDataObject
+ * @typedef {{avgViewsPerTenMin: Number, avgCommentPerTenMin: Number, avgVotePerTenMin: Number}} trendingVideoDataObject
 */
 /**
  * Function to find average values per ten minute of videos
  * Function also calculates each metadatas minimum and maximum values
  *
- * @param {{id: Number, loops: Number, uploadTime: Date, metaData: { commentCount: Number, voteCount: Number}}} videos
+ * @param {{views: Number, uploadTime: Date, comments: Number, votes: Number}} videos
  * @returns {{valuesPerTenMin: valuesPerTenMin, trendingVideoData: [trendingVideoDataObject]}}
  */
 module.exports = (videos) =>{

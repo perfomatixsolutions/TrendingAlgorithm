@@ -4,10 +4,10 @@ module.exports = async function(videodata) {
   try {
     videodata.forEach(video => {
       if(!(isFinite(video.views) && isFinite(video.comments) && isFinite(video.votes))) {
-        throw ('views, comments and votes are required for each videos and they must be a number')
+        throw ('views, comments and votes are required for each videos and they must be numbers')
       }
       if(!(video.uploadTime && is_date(new Date(video.uploadTime)))) {
-        throw('video upload time is required for all videos')
+        throw('video uploadTime is required for all videos and it must be a Date Object')
       }
     }); 
     return;

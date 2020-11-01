@@ -2,7 +2,7 @@
 
 /**
  * @typedef {{minview: Number, minComment: number, minVote: Number, maxView: Number, maxComment: Number, maxVote: Number}} valuesPerTenMin
- * @typedef {{id: Number, avgViewsPerTenMin: Number, avgCommentPerTenMin: Number, avgVotePerTenMin: Number}} trendingVideoDataObject
+ * @typedef {{avgViewsPerTenMin: Number, avgCommentPerTenMin: Number, avgVotePerTenMin: Number}} trendingVideoDataObject
 */
 /**
  * Function to calculate normalized values for each video
